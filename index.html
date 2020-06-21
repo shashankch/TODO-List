@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TODO-List</title>
+  </head>
+
+  <body>
+    <!-- TODO main container -->
+    <div class="main-container">
+      <div class="todo-heading">
+        My TODO-List
+      </div>
+      <!-- TODO input box container -->
+      <div class="todo-input-container">
+        <form action="">
+          <input
+            type="text"
+            class="input_todo"
+            required
+            placeholder="add items before u forget!"
+          />
+
+          <button class="add-button">
+            <i class="fas fa-plus-circle"></i>
+          </button>
+        </form>
+      </div>
+      <!-- TODO list container -->
+      <div class="todo-item-container">
+        <ul class="todo-list">
+          <!-- <div class="item">
+            <button class="item-check"><i class="fas fa-check-circle"></i></button>
+            <li>buy item</li>
+            <button class="item-delete"><i class="fas fa-trash"></i></button>
+          </div> -->
+        </ul>
+      </div>
+      <!-- TODO tasks left container -->
+      <div class="total"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

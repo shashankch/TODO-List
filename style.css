@@ -1,0 +1,139 @@
+/** set the body style and background */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(50deg, #ff8a00, #e52e71);
+  background-attachment: fixed;
+}
+
+/* todo list main container styling */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/** todo main heading */
+.todo-heading {
+  color: white;
+  font-size: 50px;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+}
+
+/** TODO input box container */
+.todo-input-container {
+  min-width: 30%;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.todo-input-container .input_todo {
+  border: none;
+  border-radius: 0.1rem;
+  padding: 10px;
+  font-size: 25px;
+  min-width: 70%;
+  outline: none;
+}
+
+/** TODO input box button styling  */
+.todo-input-container .add-button {
+  background-color: #ff8a00;
+  border: none;
+  color: white;
+  min-width: 10%;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  border-radius: 0.2rem;
+  outline: none;
+}
+
+.add-button i {
+  font-size: 30px;
+}
+.add-button:hover {
+  background-color: white;
+  color: #ff8a00;
+}
+
+/** TODO list container styling  */
+.todo-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 20%;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+}
+
+/** TODO item container styling  */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  background-color: white;
+  border-radius: 0.2rem;
+  min-height: 40px;
+}
+
+.item li {
+  font-size: 25px;
+  padding: 10px;
+}
+
+/** item check styling  */
+.item-check {
+  background-color: white;
+  border: none;
+  color: greenyellow;
+  font-size: 30px;
+  outline: none;
+  transition: all 0.5s ease;
+  padding: 4px;
+  border-radius: 0.2rem;
+}
+
+.item-check:hover {
+  background-color: greenyellow;
+  color: white;
+}
+
+.item-completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/** item delete styling  */
+.item-delete {
+  background-color: white;
+  border: none;
+  color: red;
+  border-radius: 0.2rem;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.item-delete:hover {
+  background-color: red;
+  color: white;
+}
+
+/** tasks left container styling */
+.total {
+  padding: 10px;
+  font-size: 25px;
+
+  color: white;
+}
